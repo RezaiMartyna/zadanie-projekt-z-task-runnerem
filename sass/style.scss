@@ -1,0 +1,21 @@
+header {
+    background-image: url("https://as1.ftcdn.net/jpg/03/40/83/26/500_F_340832699_pffjYdURWUOt9Qpn6k3vHvWgfBB5uZUZ.jpg");
+    height: auto; 
+}
+
+ header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header li {
+    display: inline;
+    float: right;
+  }
+
+  header a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+  }
