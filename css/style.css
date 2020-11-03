@@ -6,7 +6,7 @@ header {
   background-size: cover;
 }
 
-.col-2 a {
+.col-3 a {
   color: gold;
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
@@ -53,7 +53,7 @@ header a {
   margin-top: 50px;
 }
 
-.title h3 {
+.services .title h3 {
   margin-top: -15px;
   margin-bottom: 100px;
   font-family: 'Dancing Script', cursive;
@@ -72,5 +72,56 @@ header a {
 
 .services h4 {
   color: grey;
+}
+
+.our-portfolio {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: 50px;
+}
+
+.our-portfolio .title h2 {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.our-portfolio .title h3 {
+  margin-top: -15px;
+  margin-bottom: 100px;
+  font-family: 'Dancing Script', cursive;
+  color: grey;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.our-portfolio .card {
+  background-color: white;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.card-body p {
+  color: grey;
+  margin-top: -15px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+}
+
+footer i {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
