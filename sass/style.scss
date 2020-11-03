@@ -33,7 +33,7 @@ header {
   .header-inner {
     text-align: center;
     color: white; 
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .header-inner button {
@@ -47,4 +47,30 @@ header {
     margin: 40px;
     cursor: pointer;
     background-color: rgb(238, 196, 57);
+  }
+
+  .services {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .title h3 {
+    margin-top: -15px;
+    margin-bottom: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+  }
+
+  .services i {
+    color: orange;
+    border-width: 3px;
+    border-style: solid;
+    border-color: orange;
+    border-image: initial;
+    border-radius: 50% 50% 50% 50%; 
+    padding: 6% 9% 6% 9%; 
+  }
+
+  .services h4 {
+    color: grey; 
   }
