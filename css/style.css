@@ -1,22 +1,50 @@
 header {
-  background-image: url("https://as1.ftcdn.net/jpg/03/40/83/26/500_F_340832699_pffjYdURWUOt9Qpn6k3vHvWgfBB5uZUZ.jpg");
-  height: auto;
+  background-image: url("https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  height: 400px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-2 a {
+  color: gold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
 }
 
 header ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
+  float: right;
 }
 
 header li {
   display: inline;
-  float: right;
 }
 
 header a {
   text-decoration: none;
   color: white;
   padding: 14px 16px;
+}
+
+.header-inner {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.header-inner button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px;
+  cursor: pointer;
+  background-color: #eec439;
 }
 /*# sourceMappingURL=style.css.map */
